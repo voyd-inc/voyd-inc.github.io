@@ -1,8 +1,8 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center w-screen min-h-screen font-nebula-regular">
-      <div className="w-3/4 md:w-1/2">
+    <main className="relative flex flex-col items-center justify-center w-screen min-h-screen font-nebula-regular">
+      <div className="w-3/4 md:w-1/2 mb-[80px]">
         <h1 className="text-4xl my-4 animate-[fadeIn_0.5s]">Voyd Inc.</h1>
         <p className="text-base my-4 animate-[fadeIn_1.5s]">The promises whispered in childhood, echoes of a younger heart, promises yet to keep.</p>
         <div className="text-base my-4 rounded-md animate-[fadeIn_2s]">
@@ -12,7 +12,7 @@ export default function Home() {
           </blockquote>
         </div>
         <ul className="mt-10">
-          <h2 className="text-2xl my-4 animate-fadeIn animate-[fadeIn_2.5s]">Ideas in motion...</h2>
+          <h2 className="text-2xl my-4 animate-fadeIn animate-[fadeIn_2.5s]">We are building...</h2>
           <li className="before:mr-2 before:content-hyphen before:animate-[fadeIn_2.5s]">
             <Link href="https://enrych.github.io/" className="hover:underline animate-[fadeIn_3s]">Enrich Platforms</Link>
           </li>
