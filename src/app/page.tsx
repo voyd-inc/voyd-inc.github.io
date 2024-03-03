@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="relative flex flex-col items-center justify-center w-screen min-h-screen font-nebula-regular">
-      <div className="w-3/4 md:w-1/2 mb-[80px]">
+      <div className="w-3/4 md:w-1/2 my-[80px]">
         <h1 className="text-4xl my-4 animate-[fadeIn_0.5s]">Voyd Inc.</h1>
         <p className="text-base my-4 animate-[fadeIn_1.5s]">The promises whispered in childhood, echoes of a younger heart, promises yet to keep.</p>
         <div className="text-base my-4 rounded-md animate-[fadeIn_2s]">
