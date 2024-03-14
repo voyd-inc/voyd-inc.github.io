@@ -1,4 +1,4 @@
 ## Voyd Inc.
 
 ### Our Work:
-- [Enrych](https://enrych.github.io/)
+- [Enrych Platforms](https://enrych.github.io/)
